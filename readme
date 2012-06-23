@@ -1,0 +1,12 @@
+This is an example for using icarus to compile verilog file and anslyse the wave with gtkwave
+requrement:
+    icarus verilog
+    gtkwave
+install:
+    make
+    gtkwave tb.lxt
+notice:
+    $dumpfile
+    $dumpvars
+    $dumpflush
+    these three statement must be added in the testbech file,inorder to ayalyse the wave with gtkwave;
